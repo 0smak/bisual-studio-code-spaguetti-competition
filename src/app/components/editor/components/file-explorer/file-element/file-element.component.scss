@@ -1,0 +1,25 @@
+:host {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+        & span {
+            font-weight: 600;
+        }
+    }
+}
+
+.dir {
+    color: var(--dir-color);
+}
+
+.file {
+    color: var(--file-color);
+}
+
+span {
+    color:var(--fg-alt-2);
+}

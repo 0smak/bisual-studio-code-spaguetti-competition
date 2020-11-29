@@ -1,0 +1,58 @@
+:host{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 25px;
+    color: var(--fg-main);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    &:hover, &.selected {
+        background-color: var(--bg-alt-1);
+        & > .img > img {
+            width: 450px;
+        } 
+    }
+}
+
+.img {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid var(--fg-main);
+    & > img {
+        transition: width .125s ease-in;
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: -5px top;
+    }
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    & > h4 { 
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    & > p {
+        max-width: 500px;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        display: block;
+        opacity: 0.95;
+        & ::ng-deep span {
+            margin-bottom: 5px;
+            line-height: 1.5;
+            display: block;
+            &:not(:first-of-type) {
+                font-size: 1rem;
+            }
+        }
+        & ::ng-deep strong {
+            font-weight: 600;
+        }
+    }
+}

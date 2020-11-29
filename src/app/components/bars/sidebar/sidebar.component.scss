@@ -1,0 +1,31 @@
+nav {
+  position: fixed;
+  left: 0;
+  background-color: var(--bg-alt-2);
+  & > ul {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    & > li {
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+      &.active {
+        border-left: 1px solid var(--fg-alt-1);
+      }
+      &:not(.active) {
+        opacity: 0.7;
+      }
+      &.active,
+      &:hover {
+        opacity: 1;
+      }
+      padding: 10px;
+      text-align: center;
+      & > a {
+        color: var(--fg-main);
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

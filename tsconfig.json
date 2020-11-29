@@ -2,12 +2,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
     "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -19,7 +15,16 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@pipes/*": ["./app/pipes/*"],
+      "@directives/*": ["./app/directives/*"],
+      "@interfaces/*": ["./app/interfaces/*"],
+      "@components/*": ["./app/components/*"],
+      "@utils/*": ["./app/utils/*"],
+      "@services/*": ["./app/services/*"],
+      "@editor/*": ["./app/components/editor/*"]
+    },
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
