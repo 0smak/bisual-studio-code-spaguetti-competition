@@ -1,4 +1,4 @@
-## 🅱isual Studio Código + ETSISIJS
+## 🅱isual Estudio Código + ETSISIJS
 
 ### Acerca del proyecto
 Proyecto presentado para la Spaghetti Code IV Edición de Core Dumped, consiste en un clon del editor de Microsoft, Visual Studio Code, en el cual puedes editar archivos `.ejs` (ETSISIJS), en este lenguaje cada palabra reservada, propiedad, evento, etc de js es sustituida por usernames de twitter de estudiantes de la etsisi y alguna otra referencia a la escuela (por ejemplo la palabra reservada de js `class` equivaldria a `bloque_iii`). Despues puedes transpilar todos los archivos del proyecto a javascript y ejecutarlos en node o en el navegador
