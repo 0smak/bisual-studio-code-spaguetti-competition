@@ -1,0 +1,11 @@
+#code-editor {
+    outline: none;
+    color: var(--fg-main);
+    line-height: 1.5;
+    padding: 40px;
+    counter-reset: number;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 1.1rem;
+}

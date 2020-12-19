@@ -1,0 +1,4 @@
+<section [style.top]="editorTop" [style.left]="editorLeft" [style.height]="editorHeight" [style.width]="editorWidth">
+  <app-file-explorer (mousedown)="handleMousedown($event)"></app-file-explorer>
+  <app-code-editor [selectedFile]="selectedFile"></app-code-editor>
+</section>

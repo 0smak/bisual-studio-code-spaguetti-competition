@@ -1,0 +1,33 @@
+<div class="modal" (clickOutside)="closeModal($event)">
+    <div class="close" (click)="closeModal()">
+        <fa-icon [icon]="faTimes"></fa-icon>
+    </div>
+    <h2>Skins</h2>
+    <h3>Elige tu salsa</h3>
+    <app-skins-list>
+        <app-skin-element [class.selected]="skin === 'default'" (click)="setSkin('default')"
+            img="assets/skins/default.png">
+            <span title>Sin salsa</span>
+            <span><strong>Ingredientes:</strong>&nbsp;Sal</span>
+            <span>Salsa predeterminada de <i>🅱isual Estudio Código</i></span>
+        </app-skin-element>
+        <app-skin-element [class.selected]="skin === 'carbonara'" (click)="setSkin('carbonara')"
+            img="assets/skins/carbonara.png">
+            <span title>Carbonara</span>
+            <span><strong>Ingredientes:</strong>&nbsp;Yema de huevo, tocino, queso pecorino romano, sal y pimienta
+                negra</span>
+            <span>🔥🔥🔥🔥 Selección de la casa</span>
+        </app-skin-element>
+        <app-skin-element [class.selected]="skin === 'bolognesa'" (click)="setSkin('bolognesa')"
+            img="assets/skins/bolognesa.png">
+            <span title>Bolognesa</span>
+            <span><strong>Ingredientes:</strong>&nbsp;Tomate, cebolla, carne de ternera y cerdo, zanahoria, pimienta
+                negra, laurel, perejil fresco, apio, ajo y sal</span>
+        </app-skin-element>
+        <app-skin-element [class.selected]="skin === 'pesto'" (click)="setSkin('pesto')" img="assets/skins/pesto.png">
+            <span title>Pesto</span>
+            <span><strong>Ingredientes:</strong>&nbsp;Hojas de albahaca, queso parmesano, piñones, ajo, aceite y
+                sal</span>
+        </app-skin-element>
+    </app-skins-list>
+</div>

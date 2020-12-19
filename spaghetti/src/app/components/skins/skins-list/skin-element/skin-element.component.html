@@ -1,0 +1,11 @@
+<div class="img">
+    <img [src]="img">
+</div>
+<div class="info">
+    <h4>
+        <ng-content select="[title]"></ng-content>
+    </h4>
+    <p>
+        <ng-content></ng-content>
+    </p>
+</div>

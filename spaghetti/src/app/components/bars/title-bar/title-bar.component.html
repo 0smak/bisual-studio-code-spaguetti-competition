@@ -1,0 +1,46 @@
+<nav id="title-bar">
+  <ul>
+    <li>
+      <a>Archivo</a>
+      <ul>
+        <li id="bar-action-save" (click)="save()">
+          <span>Guardar</span>
+          <span>Ctrl + S</span>
+        </li>
+        <li (click)="openNew()">
+          <span>Abrir proyecto</span>
+          <span>Ctrl + O</span>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a>Editar</a>
+      <ul>
+        <li (click)="rehighlight()">
+          <span>Re-highlight</span>
+          <span>Ctrl + H</span>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a>Preferencias</a>
+      <ul>
+        <li (click)="openSkins()"><span>Escoger salsa</span><span>(skins)</span></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="title"><span class="filename" *ngIf="!!selectedFile">{{selectedFile.name}}</span> 🅱isual Estudio Código
+  </div>
+  <div class="window-options">
+    <span (click)="minimizeWindow()">
+      <fa-icon [icon]="faMinimize"></fa-icon>
+    </span>
+    <span (click)="maximizeWindow()">
+      <fa-icon [icon]="faRestore"></fa-icon>
+    </span>
+    <span (click)="closeWindow()">
+      <fa-icon [icon]="faClose"></fa-icon>
+    </span>
+
+  </div>
+</nav>

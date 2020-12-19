@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html.default {	
+	--accent: #007acc;
+	--accent--hover: #0081d6;
+	--bg-main: #1E1E1E;
+	--bg-alt-1: #252526;
+	--bg-alt-2: #333333;	
+	--bg-alt-3: #323233;	
+	--fg-main: #f0f0f0;
+	--fg-alt-1: #ffffff;
+	--fg-alt-2: #e6e6e6;
+	--fg-alt-3: #eee;
+	--fg-alt-4: #aaa;
+	--fg-alt-5: #333333;
+	--dir-color: goldenrod;
+	--file-color: springgreen;
+	--token-vars: lightgreen;
+	--token-props: violet;
+	--token-others: lightskyblue;
+	--token-quote: sandybrown;
+	--token-property: gold;
+	--focus-row: #ffffff10;
+	--token-number: lawngreen;
+}
+
+html.carbonara {	
+	--accent: #b84053;
+    --accent--hover: #b84053;
+    --bg-main: #ffedf0;
+    --bg-alt-1: #ffdde3;
+    --bg-alt-2: #ffc2cd;
+    --bg-alt-3: #ffbcc8;
+	--fg-main: var(--accent);
+	--fg-alt-1: #ffdde3;
+	--fg-alt-2: #3c2c30;
+	--fg-alt-3: #4e3f43;
+	--fg-alt-4: #4e3f43;
+	--fg-alt-5: #3c2c30;
+	--dir-color: lightcoral;
+	--file-color: crimson;
+	--token-vars: #d90041;
+	--token-props: violet;
+	--token-others: #ff0edd;
+	--token-quote: gold;
+	--token-property: #ff0edd;
+	--focus-row: #b8405310;
+	--token-number: black;
+}
+
+html.bolognesa {	
+	--accent: #800E13;
+    --accent--hover: #800E13;
+    --bg-main: #640D14;
+    --bg-alt-1: #50090f;
+    --bg-alt-2: #38040E;
+    --bg-alt-3: var(--accent);
+	--fg-main: #f0f0f0;
+	--fg-alt-1: #ffffff;
+	--fg-alt-2: #e6e6e6;
+	--fg-alt-3: #eee;
+	--fg-alt-4: #aaa;
+	--fg-alt-5: #333333;
+	--dir-color: red;
+	--file-color: white;
+	--token-vars: red;
+	--token-props: gold;
+	--token-others: white;
+	--token-quote: #f8a7a7;
+	--token-property: lime;
+	--focus-row: #ff000040;
+	--token-number: gold;
+}
+html.pesto {	
+    --accent: #90ee90;
+    --accent--hover: #90ee90;
+    --bg-main: #ddffa9;
+    --bg-alt-1: #c9ff79;
+    --bg-alt-2: #aeec52;
+    --bg-alt-3: var(--accent);
+    --fg-main: #112911;
+    --fg-alt-1: #1d5a00;
+    --fg-alt-2: #2e3c2c;
+    --fg-alt-3: #404e3f;
+    --fg-alt-4: #404e3f;
+    --fg-alt-5: #2c3c2e;
+	--dir-color: green;
+	--file-color: rgb(0, 66, 0);
+    --token-vars: #004e02;
+    --token-props: #048042;
+    --token-quote: #163115;
+    --token-property: #0f3b0f;
+    --focus-row: rgba(16,85,22,0.25098039215686274);
+    --token-number: #081d0a;
+}
+
+
+body {
+    background-color: var(--bg-main);
+    min-width: 100vh;
+    max-width: 100vh;
+    width: 100vh;
+}
+
+.bolognesa .rv_vars {
+	background: #480000;
+	font-weight: bold;
+}
+
+ .rv_vars{
+	color: var(--token-vars);
+}
+
+ .rv_props{
+	color: var(--token-props);
+}
+
+ .rv_other {
+	color: var(--token-others);
+}
+
+.carbonara .rv_quote {
+	padding: 3.5px 3px;
+    background-color: #ca7fc0;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+.rv_quote {
+	color: var(--token-quote);
+}
+
+.rv_property {
+	color: var(--token-property);
+}
+
+.rv_number {
+	color: var(--token-number);
+	font-weight: bold;
+}
+
+.rv_parenthesis {
+	color: var(--token-parenthesis);
+	font-weight: bold;
+}
+
+#code-editor .row {
+	counter-increment: number;
+	position: relative;
+    margin-bottom: 5px;
+  
+}
+  #code-editor .row::before {
+	content: counter(number);
+	position: absolute;
+	left: -20px;
+	top: 2px;
+	opacity: 0.5;
+	font-size: .85rem;
+  }
+  span.space {
+	  padding: 0 5px;
+  }
+
+  .row:focus {
+	background: var(--focus-row);
+	outline: none;
+  }
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+

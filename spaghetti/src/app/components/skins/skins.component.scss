@@ -1,0 +1,54 @@
+:host {
+    z-index: 10000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #00000025;
+}
+.modal {
+    position: relative;
+    padding: 50px 40px;
+    border-radius: 10px;
+    width: 70vw;
+    max-height: 80vh;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    grid-gap: 5px;
+    background: var(--bg-alt-3);
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    padding: 25px;
+    right: 0;
+    top: 0;
+    fa-icon {
+        font-size: 1.5rem;
+        color: var(--fg-alt-2);
+    }
+}
+
+app-skins-list {
+    overflow-y: auto;
+}
+
+h2, h3 {
+    color: var(--fg-main);
+}
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}

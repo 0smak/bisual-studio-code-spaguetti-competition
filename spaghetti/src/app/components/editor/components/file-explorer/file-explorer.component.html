@@ -1,0 +1,13 @@
+<h3>Your project / files tree</h3>
+<hr>
+<div *ngIf="!projectTree" class="empty-workspace">
+    <p>You have not yet opened a folder</p>
+    <div class="btn">
+        <input (change)="onChange($event)" type="file" webkitdirectory name="openFolder" id="openFolder">
+        <label for="openFolder"><button>Open project</button></label>
+    </div>
+</div>
+<div *ngIf="projectTree" class="tree">
+    <app-directory-element [tree]="projectTree">
+    </app-directory-element>
+</div>

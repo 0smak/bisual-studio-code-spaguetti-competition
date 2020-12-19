@@ -1,0 +1,16 @@
+<details *ngFor="let dir of tree">
+    <summary>
+        <div class="dir">
+            <app-file-element [file]="dir.file"></app-file-element>
+        </div>
+        <div class="expand">
+            <fa-icon [icon]="faChevronDown"></fa-icon>
+        </div>
+    </summary>
+    <div class="list">
+        <div class="row" *ngFor="let d of dir.child">
+            <app-file-element (click)="setFile(d.file)" *ngIf="!d.file.isDirectory" [file]="d.file"></app-file-element>
+            <app-directory-element *ngIf="d.file.isDirectory" [tree]="[d]"></app-directory-element>
+        </div>
+    </div>
+</details>

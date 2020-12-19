@@ -1,0 +1,619 @@
+javascript: console
+ejs: marta
+
+javascript: log
+ejs: olea
+
+
+javascript: abstract
+ejs: @pelochungo
+
+
+javascript: arguments
+ejs: @xploding_kitty
+
+
+javascript: await
+ejs: @dannyel_
+
+
+javascript: boolean
+ejs: @Marinero_Marino
+
+
+javascript: break
+ejs: cafeteria
+
+
+javascript: byte
+ejs: @JoCaMo
+
+
+javascript: case
+ejs: @AdriFdez_
+
+
+javascript: catch
+ejs: @vix_ferrer
+
+
+javascript: char
+ejs: @anthowm
+
+
+javascript: class
+ejs: bloque_iii
+
+
+javascript: const
+ejs: @DiegoLg
+
+
+javascript: continue
+ejs: @CaravantesMario
+
+
+javascript: debugged
+ejs: @CheteGutierrez
+
+
+javascript: default
+ejs: @Ayarina_
+
+
+javascript: delete
+ejs: @nadiaisgaming
+
+
+javascript: do
+ejs: @alvaritojg
+
+
+javascript: double
+ejs: @javinator
+
+
+javascript: else
+ejs: @etsisi_amor
+
+
+javascript: enum
+ejs: @emili_cp
+
+
+javascript: eval
+ejs: @ItsNash
+
+
+javascript: export
+ejs: @totegsito
+
+
+javascript: extends
+ejs: @itsanaaland
+
+
+javascript: false
+ejs: @its_charlie
+
+
+javascript: final
+ejs: @MelchorAlvaro
+
+
+javascript: finally
+ejs: @sgc
+
+
+javascript: float
+ejs: @opleno
+
+
+javascript: for
+ejs: @zsahraoui
+
+
+javascript: function
+ejs: @KirtashYuuki
+
+
+javascript: goto
+ejs: @mimadrenococina
+
+
+javascript: if
+ejs: @etsisi_enfureci
+
+
+javascript: implements
+ejs: @moco__loco
+
+
+javascript: import
+ejs: @Daazarog
+
+
+javascript: in
+ejs: @gettsu
+
+
+javascript: instanceof
+ejs: @lr_blue
+
+
+javascript: int
+ejs: LeGoyames
+
+
+javascript: interface
+ejs: @apsueiro
+
+
+javascript: let
+ejs: @Educesar
+
+
+javascript: long
+ejs: @Valentino_Mrtnz
+
+
+javascript: native
+ejs: @nopuedoconmivid
+
+
+javascript: new
+ejs: @Mani_paliedro
+
+
+javascript: null
+ejs: @RubenMoros
+
+
+javascript: package
+ejs: @zaakc_
+
+
+javascript: private
+ejs: @vmolinerog
+
+
+javascript: protected
+ejs: @akiradipper
+
+
+javascript: public
+ejs: @Mattymathius
+
+
+javascript: return
+ejs: @ardillartner
+
+
+javascript: short
+ejs: @pablom_
+
+
+javascript: static
+ejs: @alexxistyping
+
+
+javascript: super
+ejs: @piuland
+
+
+javascript: switch
+ejs: @anibalord
+
+
+javascript: synchronized
+ejs: @ZabeTV
+
+
+javascript: this
+ejs: @jota_sh
+
+
+javascript: throw
+ejs: @TidusRL
+
+
+javascript: throws
+ejs: @VinuYSeFuee
+
+
+javascript: transient
+ejs: @JaviSaavedra
+
+
+javascript: true
+ejs: @__lolo__
+
+
+javascript: try
+ejs: @_Bxcxn
+
+
+javascript: typeof
+ejs: @claradlatorre
+
+
+javascript: var
+ejs: @memirasytecalo
+
+
+javascript: void
+ejs: @bxrrxl___
+
+
+javascript: volatile
+ejs: @LuisOverflow
+
+
+javascript: while
+ejs: @kayakokolishi
+
+
+javascript: with
+ejs: @Salman_mnari
+
+
+javascript: yield
+ejs: @TheCaptainsExe
+
+javascript: Array
+ejs: @AlonsD
+
+
+javascript: Date
+ejs: @JorgeRayooo
+
+
+javascript: eval
+ejs: @JaimeRosillo
+
+
+javascript: function
+ejs: @AliciaX
+
+
+javascript: hasOwnProperty
+ejs: @goldenapril
+
+
+javascript: Infinity
+ejs: @martaoleac
+
+
+javascript: isFinite
+ejs: @mbollain
+
+
+javascript: isNaN
+ejs: @CoreDumpedUPM
+
+
+javascript: isPrototypeOf
+ejs: @NostromoUPM
+
+
+javascript: length
+ejs: @PowerUp_UPM
+
+
+javascript: Math
+ejs: Miñano
+
+
+javascript: NaN
+ejs: @Robocov
+
+
+javascript: name
+ejs: @ETSISIupm
+
+
+javascript: Number
+ejs: cic
+
+
+javascript: Object
+ejs: Calle_Alan_Turin
+
+
+javascript: prototype
+ejs: CIC
+
+
+javascript: String
+ejs: he_perdido
+
+
+javascript: toString
+ejs: has_perdido
+
+
+javascript: undefined
+ejs: the_game
+
+
+javascript: valueOf
+ejs: pelochungo
+
+javascript: alert
+ejs: xploding_kitty
+
+
+javascript: all
+ejs: dannyel_
+
+
+javascript: assign
+ejs: Marinero_Marino
+
+
+javascript: blur
+ejs: JoCaMo
+
+
+javascript: button
+ejs: AdriFdez_
+
+
+javascript: checkbox
+ejs: vix_ferrer
+
+
+javascript: clearInterval
+ejs: anthowm
+
+
+javascript: clearTimeout
+ejs: DiegoLg
+
+
+javascript: clientInformation
+ejs: CaravantesMario
+
+
+javascript: close
+ejs: CheteGutierrez
+
+
+javascript: closed
+ejs: Ayarina_
+
+
+javascript: confirm
+ejs: nadiaisgaming
+
+
+javascript: constructor
+ejs: alvaritojg
+
+
+javascript: crypto
+ejs: javinator
+
+
+javascript: decodeURI
+ejs: emili_cp
+
+
+javascript: decodeURIComponent
+ejs: ItsNash
+
+
+javascript: defaultStatus
+ejs: totegsito
+
+
+javascript: document
+ejs: itsanaaland
+
+
+javascript: element
+ejs: its_charlie
+
+
+javascript: elements
+ejs: MelchorAlvaro
+
+
+javascript: embed
+ejs: sgc
+
+
+javascript: embeds
+ejs: opleno
+
+
+javascript: encodeURI
+ejs: zsahraoui
+
+
+javascript: encodeURIComponent
+ejs: KirtashYuuki
+
+
+javascript: escape
+ejs: mimadrenococina
+
+
+javascript: event
+ejs: moco__loco
+
+
+javascript: fileUpload
+ejs: Daazarog
+
+
+javascript: focus
+ejs: gettsu
+
+
+javascript: form
+ejs: lr_blue
+
+
+javascript: forms
+ejs: LeGoyames
+
+
+javascript: frame
+ejs: apsueiro
+
+
+javascript: innerHeight
+ejs: Educesar
+
+
+javascript: innerWidth
+ejs: Valentino_Mrtnz
+
+
+javascript: location
+ejs: nopuedoconmivid
+
+
+javascript: mimeTypes
+ejs: Mani_paliedro
+
+
+javascript: navigate
+ejs: RubenMoros
+
+
+javascript: navigator
+ejs: zaakc_
+
+
+javascript: frames
+ejs: vmolinerog
+
+
+javascript: frameRate
+ejs: akiradipper
+
+
+javascript: hidden
+ejs: Mattymathius
+
+
+javascript: history
+ejs: ardillartner
+
+
+javascript: image
+ejs: pablom_
+
+
+javascript: images
+ejs: alexxistyping
+
+
+javascript: offscreenBuffering
+ejs: piuland
+
+
+javascript: open
+ejs: anibalord
+
+
+javascript: opener
+ejs: ZabeTV
+
+
+javascript: option
+ejs: jota_sh
+
+
+javascript: outerHeight
+ejs: TidusRL
+
+
+javascript: outerWidth
+ejs: VinuYSeFuee
+
+
+javascript: packages
+ejs: JaviSaavedra
+
+
+javascript: pageXOffset
+ejs: __lolo__
+
+
+javascript: pageYOffset
+ejs: _Bxcxn
+
+
+javascript: parent
+ejs: claradlatorre
+
+
+javascript: parseFloat
+ejs: memirasytecalo
+
+
+javascript: parseInt
+ejs: bxrrxl___
+
+
+javascript: password
+ejs: LuisOverflow
+
+
+javascript: prompt
+ejs: TheCaptainsExe
+
+
+javascript: radio
+ejs: kayakokolishi
+
+
+javascript: reset
+ejs: Salman_mnari
+
+
+javascript: screenX
+ejs: AlonsD
+
+
+javascript: screenY
+ejs: JorgeRayooo
+
+
+javascript: scroll
+ejs: JaimeRosillo
+
+
+javascript: select
+ejs: AliciaX
+
+
+javascript: self
+ejs: oleAmarta
+
+
+javascript: setInterval
+ejs: goldenapril
+
+
+javascript: setTimeout
+ejs: martaoleac
+
+
+javascript: submit
+ejs: mbollain
+
+
+javascript: textarea
+ejs: CoreDumpedUPM
+
+
+javascript: top
+ejs: NostromoUPM
+
+
+javascript: window
+ejs: PowerUp_UPM

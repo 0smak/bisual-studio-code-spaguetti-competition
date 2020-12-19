@@ -1,0 +1,6 @@
+section {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: 100%;
+  position: fixed;
+}

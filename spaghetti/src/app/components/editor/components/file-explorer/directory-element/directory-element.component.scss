@@ -1,0 +1,36 @@
+.list {
+    padding-left: 20px;
+    border-left: 1px solid var(--fg-main);
+    margin-top: 7.5px;
+}
+
+summary {
+    display: flex;
+    outline: none;
+    position: relative;
+    &::-webkit-details-marker { display: none; }
+}
+
+:host, .list {
+    display: flex;
+    flex-direction: column;
+    & > *:not(:last-child) {
+        margin-bottom: 7.5px;
+    }
+}
+
+.expand {
+    position: absolute;
+    left: -11px;
+    height: 100%;
+    color:var(--fg-alt-1);
+    display: flex;
+    font-size: 7px;
+    align-items: center;
+}
+
+details:not([open]) .expand {
+    & fa-icon {
+    transform: rotate(-90deg);
+    }
+}

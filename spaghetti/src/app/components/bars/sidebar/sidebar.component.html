@@ -1,0 +1,19 @@
+<nav id="sidebar" [style.top]="sidebarTop" [style.height]="sidebarHeight">
+  <ul>
+    <li class="active">
+      <a>
+        <fa-icon [icon]="faCopy"></fa-icon>
+      </a>
+    </li>
+    <li (click)="compile()">
+      <a>
+        <fa-icon [icon]="faCode"></fa-icon>
+      </a>
+    </li>
+    <li id="sidebar-skins" (click)="openSkins()">
+      <a>
+        <fa-icon [icon]="faPastafarianism"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</nav>
