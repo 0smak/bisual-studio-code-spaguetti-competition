@@ -41,6 +41,8 @@ Las opciones son: Sin salsa, Carbonara, Bolognesa y Pesto. Elige la que mas te g
  
 ### Tecnologias usadas
 
+- Node.js
+- ElectronJS
 - Angular v11
 - NodeJS
 - SASS/SCSS
